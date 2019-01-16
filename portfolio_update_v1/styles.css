@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 55%;
+  border: 3px solid rgba(189, 154, 154, 0.726);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f00000;
 }
 
 ul.skills {
