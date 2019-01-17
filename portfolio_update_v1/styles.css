@@ -74,15 +74,16 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(365deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: black;
+  color: yellow;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  border: dashed yellow 3px;
 } 
 .location {
   background-color: #222;
@@ -201,6 +202,24 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .card-title {
+    border: solid black 5px;
+    border-radius: 15px;
+    text-align: center;
+    
+  }
+
+  .added-img {
+    margin-top: 20px;
+    height: 350px;
+    width: 400px;
+    border: solid black 3px;
+  }
+
+  .imgtext {
+    font-style: italic
   }
 
 }
